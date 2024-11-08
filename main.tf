@@ -13,7 +13,7 @@ provider "aws" {
 # If your region is same as us-east-1 then you can just use one aws provider
 provider "aws" {
   alias  = "ecr"
-  region = "us-east-1"
+  region = "us-west-2"
 }
 
 provider "kubernetes" {
